@@ -1,0 +1,21 @@
+{
+    "name": "robertboeser/robo-2fa",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Robo\\Robo2fa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Böser",
+            "email": "code@robertboeser.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "skleeschulte/base32": "^0.0.2"
+    }
+}
